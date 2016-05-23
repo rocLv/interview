@@ -2,7 +2,7 @@ class CommentsController < ApplicationController
   def create
     @comment = Comment.new(comment_params)
 
-    debugger
+    # debugger
     if @comment.save
       render json: @comment
     else
