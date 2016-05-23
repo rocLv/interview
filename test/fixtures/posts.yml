@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+post1:
+  title: Title
+  body: Post
+
+post2:
+  title: Title2
+  body: Post
